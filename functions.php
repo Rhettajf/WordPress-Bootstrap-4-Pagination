@@ -7,7 +7,7 @@
  *      echo: If true, pagination is echoed. Otherwise is is returned. Default true. Accepts true|false.
  *      query: Allows you to specify a custom query to paginate. Defaults to global query. Accepts WP_Query object.
  *      show_all: If set to True, it will show all pages instead of just pages near the current page. Default false.Accepts true|false.
- *      prev_next: Wheter to include the previous and next links in the list or not. Default true. Accepts true|false.
+ *      prev_next: Whether to include the previous and next links in the list or not. Default true. Accepts true|false.
  *      prev_text: The previous page link text which is only shown to screenreaders. Accepts string.
  *      next_text: The next page link text which is only shown to screenreaders. Accepts string.  
  */
