@@ -14,6 +14,8 @@ require_once('wp_bootstrap_pagination.php');
 ```
 Every theme is different, you can also just copy and paste the code into your themes functions.php file. 
 
+![Preview](http://rhettforbes.com/img/boot_pagination.jpg)
+
 ## Using boot_pagination within the Global Query
 
 This function was written for Roots Sage 9 and uses the Laravel Blade Template Engine. When within the global/main query loop, you can call the boot_pagination() function with the following line of code: `{!! boot_pagination() !!}`
