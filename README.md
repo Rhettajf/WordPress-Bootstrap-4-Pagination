@@ -3,6 +3,17 @@ Bootstrap 4 Pagination for Roots Sage 9
 
 In WordPress, numeric pagination can be a pain in the a**. This was especially true when paginating custom queries using Bootstrap paired with Sage 9 and Laravel Blade - not to mention I also needed an accessible and screen reader friendly solution. 
 
+## Installing boot_pagination
+
+Place boot_pagination.php in your WordPress theme `/wp-content/themes/your-theme` or `/wp-content/themes/your-theme/resources/` in Sage 9.
+
+Open your WordPress themes functions.php file `/wp-content/themes/your-theme/functions.php` or `/wp-content/themes/your-theme/resources/functions.php` in Sage 9 and add the following code:
+```php
+// Register Bootstrap Pagination
+require_once('wp_bootstrap_pagination.php');
+```
+Every theme is different, you can also just copy and paste the code into your themes functions.php file. 
+
 ## Using boot_pagination within the Global Query
 
 This function was written for Roots Sage 9 and uses the Laravel Blade Template Engine. When within the global/main query loop, you can call the boot_pagination() function with the following line of code: `{!! boot_pagination() !!}`
