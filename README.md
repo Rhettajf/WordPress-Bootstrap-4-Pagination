@@ -7,7 +7,7 @@ In WordPress, numeric pagination can be a pain in the a**. This was especially t
 
 This function was written for Roots Sage 9 and uses the Laravel Blade Template Engine. When within the global/main query loop, you can call the boot_pagination() function with the following line of code: `{!! boot_pagination() !!}`
 
-If your not using Blade, you can also call the boot_pagination() function with regular ol’ php: `<?php boot_pagination(); ?>`
+If your not using Blade, you can call the boot_pagination() function with regular ol’ php: `<?php boot_pagination(); ?>`
 
 ## A simple example using boot_pagination within a Custom Post Type Query
 
