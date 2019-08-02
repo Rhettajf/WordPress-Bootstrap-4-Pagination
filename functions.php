@@ -1,3 +1,5 @@
+
+<?php
 /**
  * Bootstrap 4 Pagination for Roots Sage 9
  * Description: Follows bootstrap pagination (https://getbootstrap.com/docs/4.0/components/pagination/).
@@ -114,3 +116,4 @@ function boot_pagination( $args = array() ) {
 		return $pagination;
 	}
 }
+?>
